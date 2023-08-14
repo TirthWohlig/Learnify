@@ -9,6 +9,7 @@ body {
 a {
   text-decoration: none;
   color: #294c5b;
+  cursor: pointer;
 }
 * {
   margin: 0;
@@ -293,7 +294,6 @@ a {
 .a {
   margin-top: 20px;
 }
-
 @media (max-width: 980px) {
   .home_points_why {
     font-size: 18px;

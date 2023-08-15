@@ -328,7 +328,7 @@ a {
   margin: 0 0 10px;
   padding: 10px;
 }
-.header_wrap{
+.header_wrap {
   padding: 10px;
 }
 .header_text {
@@ -349,10 +349,52 @@ a {
 .info {
   padding-left: 10px;
   padding-top: 0;
-  padding-right: 10px;
   padding-bottom: 10px;
   font-size: 13px;
 }
+.warming-up-sec {
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  /* position: relative; */
+  margin-top: 20px;
+}
+.qp_result_data {
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  position: relative;
+  margin-top: 50px;
+}
+
+.qbq_text {
+  font-size: 18px;
+  line-height: 1.7em;
+}
+.qp_result_data {
+  color: #000;
+}
+.qp_result_data .qp_result_data_data_meta {
+  font-size: 13px;
+  font-weight: 700;
+  color: #294c5b;
+  margin-bottom: 10px;
+}
+.textbook_solutions_wrap .html_wrap {
+  overflow: auto;
+}
+.qbq_text .html_text {
+  overflow: auto;
+}
+.html_text_tables {
+  max-width: 100%;
+  overflow: auto;
+}
+.qbq_text .qbq_items {
+  list-style: decimal;
+  padding-left: 30px;
+}
+
 @media (max-width: 980px) {
   .home_points_why {
     font-size: 18px;
@@ -398,6 +440,10 @@ a {
   .home_points_wrap .home_points:nth-of-type(2n) .home_point_number {
     left: -30px;
   }
+  .qp_result_data {
+    border-left-width: 0 !important;
+    border-right-width: 0 !important;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -436,5 +482,8 @@ a {
   .container {
     margin-right: 0px;
     margin-left: 0px;
+  }
+  .exercise_no_list > span {
+    margin-top: 10px;
   }
 }

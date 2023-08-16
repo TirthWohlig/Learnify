@@ -441,10 +441,6 @@ a {
   .home_points_wrap .home_points:nth-of-type(2n) .home_point_number {
     left: -30px;
   }
-  .qp_result_data {
-    border-left-width: 0 !important;
-    border-right-width: 0 !important;
-  }
 }
 
 @media screen and (max-width: 768px) {
